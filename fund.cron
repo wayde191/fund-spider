@@ -1,1 +1,1 @@
-30 6 * * * python ~/fund.py 
+30 6 * * * python /home/fund-spider/fund.py

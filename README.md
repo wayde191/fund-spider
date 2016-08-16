@@ -2,11 +2,15 @@
 funds spider
 
 # MACOS
-`
-└[~/iHakula/fund-spider]> sudo pip install APNSWrapper
-└[~/iHakula/fund-spider]> brew install mysql-connector-c
-└[~/iHakula/fund-spider]> sudo pip install mysql-python
-`
+    sudo pip install APNSWrapper
+    brew install mysql-connector-c
+    sudo pip install mysql-python
+
+# CentOS
+    yum -y install python-pip
+    pip install APNSWrapper
+    yum install python-devel
+    pip install mysql-python
 
 # 第一步：写cron脚本文件。例如：取名一个 crontest.cron的文本文件，只需要写一行：
     15,30,45,59 * * * * echo "xgmtest.........." >> xgmtest.txt
