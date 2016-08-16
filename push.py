@@ -6,8 +6,8 @@ import binascii
 
 class iHPush:
     def __init__(self):
-        self.wrapper = APNSWrapper.APNSNotificationWrapper('/root/dis_ifno.pem', False)
-        self.wrapperPro = APNSWrapper.APNSNotificationWrapper('/root/pro_ifno.pem', False)
+        self.wrapper = APNSWrapper.APNSNotificationWrapper('./dis_ifno.pem', False)
+        self.wrapperPro = APNSWrapper.APNSNotificationWrapper('./pro_ifno.pem', False)
 #        self.wrapper = APNSWrapper.APNSNotificationWrapper('/Users/wayde/Workspace/iHakulaSVN/python/PythonLearn/dis_ifno.pem', False)
 #        self.wrapperPro = APNSWrapper.APNSNotificationWrapper('/Users/wayde/Workspace/iHakula/python/PythonLearn/pro_ifno.pem', False)
 

@@ -396,29 +396,4 @@ def run():
 
 run()
 
-
-#第一步：写cron脚本文件。例如：取名一个 crontest.cron的文本文件，只需要写一行：
-#    15,30,45,59 * * * * echo "xgmtest.........." >> xgmtest.txt
-#    表示，每隔15分钟，执行打印一次命令
-#第二步：添加定时任务。执行命令 “crontab crontest.cron”。搞定
-#第三步：如不放心，可以输入 "crontab -l" 查看是否有定时任务
-
-#fund:天弘(000198):fund.eastmoney.com:/000198.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:华夏(000343):fund.eastmoney.com:/000343.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:南方现金通货币A(000493):fund.eastmoney.com:/000493.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:南方现金通货币B(000494):fund.eastmoney.com:/000494.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:南方现金通货币C(000495):fund.eastmoney.com:/000495.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:南方现金增利货币A(202301):fund.eastmoney.com:/202301.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:南方现金增利货币B(202302):fund.eastmoney.com:/202302.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:华安现金富利货币A(040003):fund.eastmoney.com:/040003.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:华安现金富利货币B(041003):fund.eastmoney.com:/041003.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:长城货币A(200003):fund.eastmoney.com:/200003.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:长城货币B(200103):fund.eastmoney.com:/200103.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:宝盈货币A(213009):fund.eastmoney.com:/213009.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:宝盈货币B(213909):fund.eastmoney.com:/213909.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:易方达货币A(110006):fund.eastmoney.com:/110006.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:易方达货币B(110016):fund.eastmoney.com:/110016.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:工银货币(482002):fund.eastmoney.com:/482002.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:广发货币A(270004):fund.eastmoney.com:/270004.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-#fund:广发货币B(270014):fund.eastmoney.com:/270014.html:<li class="wfsy ping">([\s\S]*?)</li><li class="qrnh ping">,<li class="qrnh ping">([\s\S]*?)</li></ul><ul>
-
+# fund:天弘(000198):fund.eastmoney.com:/000198.html:<span class="ui-font-large ui-color-red ui-num">([\s\S]*?)</span>,<span class="ui-font-middle ui-color-red ui-num">([\s\S]*?)</span></dd></dl>
